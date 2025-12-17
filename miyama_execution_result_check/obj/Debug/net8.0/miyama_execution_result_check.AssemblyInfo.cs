@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("miyama_execution_result_check")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3ca03074233b3ca2ddd08e54508bdf47ab021e67")]
 [assembly: System.Reflection.AssemblyProductAttribute("miyama_execution_result_check")]
 [assembly: System.Reflection.AssemblyTitleAttribute("miyama_execution_result_check")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
