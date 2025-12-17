@@ -1,0 +1,14 @@
+{
+  //*** テスト環境用 ***//
+  "BforestDbContext": "Data Source=bell-sql-server.database.windows.net;Database=BFORESTDB;user id=BELL-ADMINISTRATOR;password=995R~miZRnx#;TrustServerCertificate=true;",
+
+  //*** 本番環境用 ***//
+  //"BforestDbContext": "Data Source=10.0.0.32;Database=BFORESTDB;user id=BELL-ADMINISTRATOR;password=995R~miZRnx#;TrustServerCertificate=true;",
+
+  "MailServerAddress": "smtp.office365.com",
+  "MailServerPort": "587",
+  "MailId": "informations@e-miyama.com",
+  "MailPassword": "Ichioshi1163",
+  "MailFrom": "informations@e-miyama.com",
+  "MailFromName": "miyama_system",
+}

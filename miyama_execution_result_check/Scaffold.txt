@@ -1,0 +1,18 @@
+Scaffold-DbContext -Provider Microsoft.EntityFrameworkCore.SqlServer -Connection "Data Source=bell-sql-server.database.windows.net;Database=BFORESTDB;user id=BELL-ADMINISTRATOR;password=995R~miZRnx#;TrustServerCertificate=true;" -Force -OutputDir "BforestDbEntities" -Context "BforestDbContext" -UseDatabaseNames -DataAnnotations
+
+
+
+
+
+SELECT
+OBJ.name, COL.name, TYP.name, COL.max_length
+FROM
+sys.objects OBJ
+JOIN sys.columns COL ON OBJ.object_id = COL.object_id
+JOIN sys.types TYP ON COL.system_type_id = TYP.system_type_id
+WHERE OBJ.name like '%BIZ_ODR_VIEW%'
+AND TYP.user_type_id <> 256 --sysnamesÇèúÇ≠
+ORDER BY OBJ.name, COL.column_id;
+
+
+

@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "miyama_execution_result_check": {
+      "commandName": "Project",
+      "commandLineArgs": "2001"
+    }
+  }
+}
